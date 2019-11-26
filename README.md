@@ -2,7 +2,7 @@
 ## 本项目归纳黑苹果安装过程
 ## 工具
 ### 1.clover
-### 2.
+### 2.[Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 ### 3.
 
 ## 驱动
