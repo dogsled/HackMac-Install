@@ -1,4 +1,4 @@
-# HackMac-Install
+# Hackintosh-Install
 ## 本项目归纳黑苹果安装过程
 ## 工具
 ### 1.clover
