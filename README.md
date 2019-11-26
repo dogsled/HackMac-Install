@@ -15,7 +15,8 @@
 ### x. USB驱动 [RehabMan-USBInjectAll-2018-1108.zip](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
 ### x. 网卡驱动 [RTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
 ### x. 声卡驱动 [AppleALC](https://github.com/acidanthera/AppleALC/releases)
-### x. 电源管理注入[CPUFriend](https://github.com/acidanthera/CPUFriend/releases)
-    使用教程（https://blog.daliansky.net/CPUFriend-Installation-and-Usage.html）
+### x. 变频驱动[CPUFriend](https://github.com/acidanthera/CPUFriend/releases)
+    粗鲁使用教程（https://blog.daliansky.net/CPUFriend-Installation-and-Usage.html）
+    变频教程（https://change-y.github.io/2018/04/30/%E5%88%A9%E7%94%A8CPUFriend-kext%E5%AE%9E%E7%8E%B0%E5%8F%98%E9%A2%91/）
 ### x. ps2键盘鼠标[VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases)
 ### x. 
