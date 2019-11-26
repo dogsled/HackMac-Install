@@ -7,4 +7,4 @@
 
 ## 驱动
 ### 1. 
-### x. [RehabMan-USBInjectAll-2018-1108.zip](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
+### x. USB驱动：[RehabMan-USBInjectAll-2018-1108.zip](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
