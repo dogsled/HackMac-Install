@@ -14,4 +14,4 @@
 ### x. 显示辅助[WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
 ### x. USB驱动 [RehabMan-USBInjectAll-2018-1108.zip](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
 ### x. 网卡驱动 [RTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
-### x. 声卡驱动 [AppleALC]https://github.com/acidanthera/AppleALC/releases
+### x. 声卡驱动 [AppleALC](https://github.com/acidanthera/AppleALC/releases)
