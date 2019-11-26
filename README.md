@@ -7,10 +7,9 @@
 
 ## 驱动
 ### 1. 
-
+### x. SMC [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 ### x. 基础patch包 [Lilu](https://github.com/acidanthera/Lilu/releases)
 ### x. patch扩展 [LiluFriend](https://github.com/PMheart/LiluFriend/releases)
-### x. SMC [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 ### x. 显示辅助[WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
 ### x. USB驱动 [RehabMan-USBInjectAll-2018-1108.zip](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
 ### x. 网卡驱动 [RTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
@@ -23,3 +22,4 @@
 ### x. 同步多核心时钟频率 [VoodooTSCSync](https://github.com/RehabMan/VoodooTSCSync)
        [https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/](https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/)
 ### x. 睡眠修复[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)
+### x. 欺骗pciid驱动 [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
