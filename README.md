@@ -22,3 +22,4 @@
 ### x. ps2键盘鼠标[VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases)
 ### x. 同步多核心时钟频率 [VoodooTSCSync](https://github.com/RehabMan/VoodooTSCSync)
        [https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/](https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/)
+### x. 睡眠修复[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)
