@@ -23,3 +23,11 @@
        [https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/](https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/)
 ### x. 睡眠修复[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)
 ### x. 欺骗pciid驱动 [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
+
+
+## 制作U盘启动盘
+
+- 下载固件
+- 制作启动盘
+- 安装引导 clover
+- 配置config.plist文件
