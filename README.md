@@ -27,8 +27,12 @@
 
 ## 制作U盘启动盘
 
-        官方https://support.apple.com/zh-cn/HT201372
+        官方地址[https://support.apple.com/zh-cn/HT201372](https://support.apple.com/zh-cn/HT201372)
 - 下载固件
 - 制作启动盘
+macOS Sierra 10.12.X 的示例:
+```
+sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ macOS\ Sierra.app
+```
 - 安装引导 clover
 - 配置config.plist文件
