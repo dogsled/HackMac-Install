@@ -6,8 +6,9 @@
 ### 3.[hackintool.zip](http://headsoft.com.au/download/mac/Hackintool.zip)
 
 ## 驱动
-### 1.
-### x. SMC [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
+
+### x. SMC [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) 暂时待定
+### x. SMC [fakeSMC](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/) 历史可用
 ### x. 基础patch包 [Lilu](https://github.com/acidanthera/Lilu/releases)
 ### x. patch扩展 [LiluFriend](https://github.com/PMheart/LiluFriend/releases)
 ### x. 显示辅助[WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
