@@ -35,5 +35,5 @@ macOS Sierra 10.12.X 的示例:
 sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ macOS\ Sierra.app
 ```
 - 安装引导 clover
--
+ ![image](images/WX20191127-101515.png)
 - 配置config.plist文件
