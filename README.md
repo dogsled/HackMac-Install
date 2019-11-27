@@ -6,7 +6,7 @@
 ### 3.[hackintool.zip](http://headsoft.com.au/download/mac/Hackintool.zip)
 
 ## 驱动
-### 1. 
+### 1.
 ### x. SMC [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 ### x. 基础patch包 [Lilu](https://github.com/acidanthera/Lilu/releases)
 ### x. patch扩展 [LiluFriend](https://github.com/PMheart/LiluFriend/releases)
@@ -35,4 +35,5 @@ macOS Sierra 10.12.X 的示例:
 sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ macOS\ Sierra.app
 ```
 - 安装引导 clover
+-
 - 配置config.plist文件
