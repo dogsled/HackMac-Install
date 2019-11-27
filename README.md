@@ -27,6 +27,7 @@
 
 ## 制作U盘启动盘
 
+        官方https://support.apple.com/zh-cn/HT201372
 - 下载固件
 - 制作启动盘
 - 安装引导 clover
