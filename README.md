@@ -37,6 +37,7 @@
 ## 3. 制作U盘启动盘
 
 >官方固件下载地址[https://support.apple.com/zh-cn/HT201372](https://support.apple.com/zh-cn/HT201372)
+> https://apps.apple.com/cn/app/macos-sierra/id1127487414?mt=12
 - 1. 下载固件
 - 2. 制作启动盘  
 macOS Sierra 10.12.X 的示例:
