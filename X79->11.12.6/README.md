@@ -23,9 +23,9 @@
 - 存放到EFI路径： OEM/X79/ACPI/patched
 ## 2. clover EFI目录驱动
 >目录结构
-EFI/Clover/OEM/X79/kexts
-├── 10.11
-├── 10.12
+>EFI/Clover/OEM/X79/kexts
+>├── 10.11
+>├── 10.12
 │   ├── AppleALC.kext
 │   ├── CPUFriend.kext
 │   ├── FakeSMC.kext
