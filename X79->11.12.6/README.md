@@ -4,9 +4,13 @@
 > 安装目标：macOS 11.12.6
 >
 > 主板型号：X79
+>
 > cpu: E5 2680 v1
+>
 > 网卡：RTL8168
+>
 > 声卡：Realtek ALC662
+> 
 > 显卡：GTX650 1024M
 
 ## 0. bios 设置
@@ -18,7 +22,7 @@
 * 关闭 USB EHCI
 * 禁用 Serial Port
 ## 1. DSDT 提取和修复
-- clover界面 F4提取
+- clover界面F4提取
 - 编译成.aml
 - 存放到EFI路径： OEM/X79/ACPI/patched
 ## 2. clover EFI目录驱动
