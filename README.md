@@ -19,19 +19,17 @@
 7. 网卡驱动 [RTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
 8. 声卡驱动 [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 9. 变频驱动[CPUFriend](https://github.com/acidanthera/CPUFriend/releases)
->
-    ResourceConverter.sh  (https://github.com/acidanthera/CPUFriend/blob/master/Tools/ResourceConverter.sh)
 
-    粗略使用教程（https://blog.daliansky.net/CPUFriend-Installation-and-Usage.html）
+  * CPUFriendprovderdata.kext 生成 [ResourceConverter.sh](https://github.com/acidanthera/CPUFriend/blob/master/Tools/ResourceConverter.sh)
 
-    变频教程（https://change-y.github.io/2018/04/30/%E5%88%A9%E7%94%A8CPUFriend-kext%E5%AE%9E%E7%8E%B0%E5%8F%98%E9%A2%91/）
+  * 粗略使用教程（https://blog.daliansky.net/CPUFriend-Installation-and-Usage.html）
+
+  * 变频教程（https://change-y.github.io/2018/04/30/%E5%88%A9%E7%94%A8CPUFriend-kext%E5%AE%9E%E7%8E%B0%E5%8F%98%E9%A2%91/）
 
 10. ps2键盘鼠标[VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases)
 11. 同步多核心时钟频率 [VoodooTSCSync](https://github.com/RehabMan/VoodooTSCSync)
->
-    [https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/](https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/)
-
-    此驱动必须安装 不安装会出现： still waiting for root device 错误
+  * [https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/](https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/)
+>此驱动必须安装 不安装会出现： still waiting for root device 错误
 12. 睡眠修复[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)
 13. 欺骗pciid驱动 [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
 
@@ -39,16 +37,25 @@
 
 ## 3. 制作U盘启动盘
 
-        官方地址[https://support.apple.com/zh-cn/HT201372](https://support.apple.com/zh-cn/HT201372)
-- 下载固件
-- 制作启动盘  
+>官方固件下载地址[https://support.apple.com/zh-cn/HT201372](https://support.apple.com/zh-cn/HT201372)
+- 1 下载固件
+- 2 制作启动盘  
 macOS Sierra 10.12.X 的示例:
 ```
 sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ macOS\ Sierra.app
 ```
-- 安装引导 clover
+- 3 安装clover引导 (clover.app v5099)
  ![image](images/WX20191127-101515.png)
-- 配置config.plist文件
-```
+- 4 配置config.plist文件
+```java
  boot args: -v 0x2000
 ```
+
+## 4. bios 设置 （x79）
+
+![bios设置](/images/bios设置.png)
+
+* 关闭VT-d
+* 开启 USB XHCI
+* 关闭 USB EHCI
+* 禁用 Serial Port
