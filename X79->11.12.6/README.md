@@ -10,7 +10,7 @@
 > 网卡：RTL8168
 >
 > 声卡：Realtek ALC662
-> 
+>
 > 显卡：GTX650 1024M
 
 ## 0. bios 设置
@@ -79,7 +79,7 @@
 
 * 当以上情况满足后，就可以通过CPUDateProvider来提供变频所需要的数据，可以尝试不同机型的plist生成的CPUDateProvider，以达到最佳变频效果。
 
-### 7.2 具体操作步骤：
+### 7.2 具体操作步骤：
 - 1. 下载CPUFriernd.kext
 - 2. 下载ResourceConverter.sh
 - 3. 在ResourceConverter.sh所在目录运行以下命令
