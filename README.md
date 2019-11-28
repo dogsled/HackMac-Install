@@ -43,3 +43,6 @@ sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallme
 - 安装引导 clover
  ![image](images/WX20191127-101515.png)
 - 配置config.plist文件
+```
+ boot args: -v 0x2000
+```
