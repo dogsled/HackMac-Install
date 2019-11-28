@@ -1,4 +1,6 @@
 # Hackintosh-Install
+[TOC]
+
 ## 本项目归纳黑苹果安装过程
 ## 工具
 ### 1.[clover](https://github.com/CloverHackyColor/CloverBootloader/releases)
@@ -21,7 +23,9 @@
     变频教程（https://change-y.github.io/2018/04/30/%E5%88%A9%E7%94%A8CPUFriend-kext%E5%AE%9E%E7%8E%B0%E5%8F%98%E9%A2%91/）
 ### x. ps2键盘鼠标[VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases)
 ### x. 同步多核心时钟频率 [VoodooTSCSync](https://github.com/RehabMan/VoodooTSCSync)
-       [https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/](https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/)
+    [https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/](https://bitbucket.org/RehabMan/VoodooTSCSync/downloads/)
+
+    此驱动必须安装 不安装会出现： still waiting for root device 错误
 ### x. 睡眠修复[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)
 ### x. 欺骗pciid驱动 [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
 
