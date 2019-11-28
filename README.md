@@ -29,6 +29,7 @@
 ### x. 睡眠修复[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases)
 ### x. 欺骗pciid驱动 [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
 
+---
 
 ## 制作U盘启动盘
 
