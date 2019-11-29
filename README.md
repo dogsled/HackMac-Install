@@ -47,11 +47,11 @@ sudo date 110713212015.30
 
 >官方固件DMG下载地址 :[https://support.apple.com/zh-cn/HT201372](https://support.apple.com/zh-cn/HT201372)
 >
->各版本固件下载地址收集：
-> 10.12.6 下载 ：https://apps.apple.com/cn/app/macos-sierra/id1127487414?mt=12
-> 10.13.6 下载 ：https://apps.apple.com/cn/app/macos-high-sierra/id1246284741&mt=12
-> 10.14.6 下载 ：https://apps.apple.com/cn/app/macos-mojave/id1398502828?mt=12
-> 10.15.x 下载 ：https://apps.apple.com/cn/app/macos-catalina/id1466841314?mt=12
+>各版本固件下载地址收集：  
+> 10.12.6 下载 ：https://apps.apple.com/cn/app/macos-sierra/id1127487414?mt=12  
+> 10.13.6 下载 ：https://apps.apple.com/cn/app/macos-high-sierra/id1246284741&mt=12  
+> 10.14.6 下载 ：https://apps.apple.com/cn/app/macos-mojave/id1398502828?mt=12  
+> 10.15.x 下载 ：https://apps.apple.com/cn/app/macos-catalina/id1466841314?mt=12  
 - 1. 下载固件
 - 2. 制作启动盘  
 macOS Sierra 10.12.X 的示例:
