@@ -2,7 +2,16 @@
 # 黑苹果安装通用过程
 [TOC]
 
+**安装时<副本已损坏>错误如何处理**
+> 这个“安装 macOS Sierra”应用程序副本已损坏，不能用来安装 macOS。
+>
+>问题原因：据说是2016年2月14日更新的证书后导致的问题，改到这个日期前就行了。
+解决方案：启动后断开网络 -> 打开左上角实用工具 -> 找到终端打开输入 （切记一定要先断开网络再进行下面的操作）
+```shell
+sudo date 110713212015.30
 
+11 月、07日、13时、21分、2015年、30秒 其实只要输入2016年2月14日这个日期之前的就行。
+```
 ## 1.安装工具
 - 1.1 [clover](https://github.com/CloverHackyColor/CloverBootloader/releases)
 - 1.2 [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
