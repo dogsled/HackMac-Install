@@ -100,6 +100,7 @@
 
 ## 8. 变频
 
+- msr 锁（ xcpm_core_scope_msrs）
 - ssdt生成 https://github.com/Piker-Alpha/ssdtPRGen.sh
 - http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1701801&highlight=e5%2B2670%2B0x
 - https://www.insanelymac.com/forum/topic/335650-kernelandkextpatches-1013x1014x1015x-x99/
