@@ -73,3 +73,7 @@ sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallme
 * 开启 USB XHCI
 * 关闭 USB EHCI
 * 禁用 Serial Port
+
+
+## 其他：
+  * [常用工具](./常用工具.md)
