@@ -61,7 +61,7 @@
 - 文件 ▸ 导出 ▸ Clover Config.plist（覆盖现有的config.plist文件）
 - 重新启动
 >如果没有音频依然存在问题，请返回步骤4并尝试不同的 Layout ID 注意：如果您尝试所有 Layout ID 但仍有问题，请尝试设置 补丁 ▸ 高级 ▸ 仿冒声卡 ID 选项。 如果这依然不起作用，那么尝试安装FakePCIID.kext + FakePCIID_Intel_HDMI_Audio.kext
-> 
+>
 > 如果有爆音，尝试在 Clover Configurator -> Boot 中设置为darkwake=no。
 
 ![01](../images/audio_01.png)
@@ -101,8 +101,8 @@
   - 变频教程-电源管理（https://change-y.github.io/2018/04/30/%E5%88%A9%E7%94%A8CPUFriend-kext%E5%AE%9E%E7%8E%B0%E5%8F%98%E9%A2%91/ ）
 
 ## 8. 变频
-
-- msr 锁（ xcpm_core_scope_msrs）
+### 8.1 引用
+- msr 锁（ xcpm_core_scope_msrs） ，可以在Mac里使用AppleIntelInfo驱动打印CPU相关状态信息，Hackintool工具已经集成了该驱动，所以我们可以很方便地获取相关信息。
 - ssdt生成 https://github.com/Piker-Alpha/ssdtPRGen.sh
 - http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1701801&highlight=e5%2B2670%2B0x
 - https://www.insanelymac.com/forum/topic/335650-kernelandkextpatches-1013x1014x1015x-x99/
@@ -110,4 +110,47 @@
 - x99 https://post.smzdm.com/p/a07mnz0w/
 - https://sourceforge.net/p/cloverefiboot/tickets/26/
 
+
+### 8.2 关于处理器变频：
+
+x79的变频需要满足这些先决条件：
+
+1. 主板上的msr寄存器需要解锁。
+2. 需要在x86PlatformPlugin.kext中注入macmini6,2的变频向量。
+3. 需要在对AppleIntelCPUPowerManagement.kext打补丁。
+4. 需要有对应处理器的SSDT。
+
+#### 8.2.1 解锁msr寄存器
+
+俺的BIOS ROM中已经解锁了。
+
+如果不刷BIOS，那么需要运行`AICPMPatch`来解锁。
+
+但是请注意，一旦开启了SIP你就不可以运行上面的解锁补丁了。
+
+#### 8.2.2 在x86PlatformPlugin.kext中注入macmini6,2的变频向量
+
+俺在`kexts`中放了`CPUFriend.kext`和`CPUFriendProvider.kext`，这两个即可注入变频向量。
+
+如果不使用CPUFriend来注入，你也可以将`X79PlatformPlugin.kext`放到`/System/Library/Extensions`目录中。
+
+同样请注意，一旦开启了SIP你就不可以放`X79PlatformPlugin.kext`了，不过使用CPUFriend不受此影响。
+
+#### 8.2.3 对AppleIntelCPUPowerManagement.kext打补丁
+
+上面这个kext简称AICPM.kext。
+
+俺在`Clover -> Kernel and Kexts Patches`中添加了针对`10.12`和`10.13`两个系统的AICPM.kext的补丁，所以就不需要你手动打补丁了。
+
+你还可以手动运行`10.x aicpm patch.command`来打补丁。
+
+同样请注意，一旦开启了SIP你就不可以运行命令来打补丁了，不过使用Clover的Patch功能不影响。
+
+#### 8.2.4 对应的SSDT
+
+推荐使用`ssdtGen`生成。
+![](../images/Hackintool_AppleIntelinfo_0xE2-CFG-Lock.jpg)
+> 出处：https://gitee.com/WuChenDaShi/clover-x79-e5-2670-gtx650/blob/master/docs/%E5%8F%98%E6%9B%B4%E8%AF%B4%E6%98%8E.md
+
+如何查看cpuinfo
 ## 9. usb定制
