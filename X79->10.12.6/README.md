@@ -206,6 +206,7 @@ x79的变频需要满足这些先决条件：
       ILniAAAAkJA=
       </data>
 </dict>
+# 防止开启HWP后内核崩溃
 ```
 -参考项
 http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769753
