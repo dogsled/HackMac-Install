@@ -61,6 +61,8 @@
 - 文件 ▸ 导出 ▸ Clover Config.plist（覆盖现有的config.plist文件）
 - 重新启动
 >如果没有音频依然存在问题，请返回步骤4并尝试不同的 Layout ID 注意：如果您尝试所有 Layout ID 但仍有问题，请尝试设置 补丁 ▸ 高级 ▸ 仿冒声卡 ID 选项。 如果这依然不起作用，那么尝试安装FakePCIID.kext + FakePCIID_Intel_HDMI_Audio.kext
+> 
+> 如果有爆音，尝试在 Clover Configurator -> Boot 中设置为darkwake=no。
 
 ![01](../images/audio_01.png)
 ![02](../images/audio_02.png)
