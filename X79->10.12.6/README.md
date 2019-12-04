@@ -210,6 +210,7 @@ x79的变频需要满足这些先决条件：
 -参考项
 http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769753
 ### 8.4 无需刷BIOS！使用setup_var命令解锁MSR 0xE2锁定
-- 手动解锁msr寄存器。 主板断电后会自动恢复。链接地址：
-https://www.misonsky.cn/115.html#i-2
+- 手动解锁msr寄存器。 主板断电后会自动恢复。
+- 链接地址1：https://www.misonsky.cn/115.html#i-2
+- 链接地址2：https://post.smzdm.com/p/awxl46lm/
 ## 9. usb定制
