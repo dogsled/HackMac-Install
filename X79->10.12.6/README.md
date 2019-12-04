@@ -187,4 +187,26 @@ x79的变频需要满足这些先决条件：
 ```
 ![](../images/clover-msr-01.png)
 ![](../images/clover-msr-02.png)
+#### 8.3.2 打补丁尝试方法
+-开启HWP得到全部电源管理菜单的解决方法（适用于Skylake） http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1732928
+```javascript
+<dict>
+      <key>Comment</key>
+      <string>MSR 0xE2 _xcpm_idle instant reboot (c) Pike R. Alpha</string>
+      <key>Disabled</key>
+      <false/>
+      <key>Find</key>
+      <data>
+      ILniAAAADzA=
+      </data>
+      <key>MatchOS</key>
+      <string>10.12</string>
+      <key>Replace</key>
+      <data>
+      ILniAAAAkJA=
+      </data>
+</dict>
+```
+-参考项
+http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769753
 ## 9. usb定制
