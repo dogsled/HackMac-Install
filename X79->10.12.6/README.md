@@ -115,7 +115,7 @@
 
 x79的变频需要满足这些先决条件：
 
-1. 主板上的msr寄存器需要解锁。
+1. 主板上的msr寄存器需要解锁。（Hackintool查看）
 2. 需要在x86PlatformPlugin.kext中注入macmini6,2的变频向量。
 3. 需要在对AppleIntelCPUPowerManagement.kext打补丁。
 4. 需要有对应处理器的SSDT。
@@ -151,6 +151,40 @@ x79的变频需要满足这些先决条件：
 推荐使用`ssdtGen`生成。
 ![](../images/Hackintool_AppleIntelinfo_0xE2-CFG-Lock.jpg)
 > 出处：https://gitee.com/WuChenDaShi/clover-x79-e5-2670-gtx650/blob/master/docs/%E5%8F%98%E6%9B%B4%E8%AF%B4%E6%98%8E.md
-
-如何查看cpuinfo
+### 8.3 10.12-10.13 MSR clover补丁
+#### 8.3.1 通过clover 给打补丁
+- http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1763385&highlight=
+- X79在10.12.6和10.13中均有效，X86正常加载，变频效果和以前一样。
+```xml
+<dict>
+   <key>Comment</key>
+   <string>MSR Skip</string>
+   <key>Find</key>
+   <data>
+   4gAAAA8w
+   </data>
+   <key>Name</key>
+   <string>AppleIntelCPUPowerManagement</string>
+   <key>Replace</key>
+   <data>
+   4gAAAJCQ
+   </data>
+</dict>
+<dict>
+   <key>Comment</key>
+   <string>MSR Skip</string>
+   <key>Find</key>
+   <data>
+   4gAAAEiJ8A8w
+   </data>
+   <key>Name</key>
+   <string>AppleIntelCPUPowerManagement</string>
+   <key>Replace</key>
+   <data>
+   4gAAAEiJ8JCQ
+   </data>
+</dict>
+```
+![](../images/clover-msr-01.png)
+![](../images/clover-msr-02.png)
 ## 9. usb定制
