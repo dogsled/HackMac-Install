@@ -214,4 +214,7 @@ http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769753
 - 手动解锁msr寄存器。 主板断电后会自动恢复。
 - 链接地址1：https://www.misonsky.cn/115.html#i-2
 - 链接地址2：https://post.smzdm.com/p/awxl46lm/
+
+BIOS-刷写工具及流程
+- 俄罗斯x79bios网站：http://x79.apphb.com/mb/#biosDownload
 ## 9. usb定制
