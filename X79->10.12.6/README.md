@@ -217,4 +217,5 @@ http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1769753
 
 BIOS-刷写工具及流程
 - 俄罗斯x79bios网站：http://x79.apphb.com/mb/#biosDownload
+- 常用bios 芯片： https://blog.csdn.net/weixin_34242509/article/details/86084868
 ## 9. usb定制
