@@ -53,6 +53,7 @@
 ### 6.1 声卡修补
 - 安装最新的 Lilu + AppleALC
 - Clover Configurator 设置 config.plist ▸ Devices ▸ Audio ▸ Inject ▸ No
+- Clover Configurator 设置 config.plist ▸ DSDT ▸ IPIC fixs &  FixHPET (烈焰战神x79)
 - 四叶草 (Clover) ▸ DSDT 重命名以下设备（如果需要）
   ☑️ AZAL ▸ HDEF
   ☑️ HDAS ▸ HDEF
