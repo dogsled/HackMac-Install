@@ -146,7 +146,8 @@ x79的变频需要满足这些先决条件：
 你还可以手动运行`10.x aicpm patch.command`来打补丁。
 
 同样请注意，一旦开启了SIP你就不可以运行命令来打补丁了，不过使用Clover的Patch功能不影响。
-
+- aicpm clover 补丁：
+https://www.insanelymac.com/forum/topic/324270-sandy-bridge-e-ivy-bridge-e-power-management-1013-appstore-release/?_fromLogin=1
 #### 8.2.4 对应的SSDT
 
 推荐使用`ssdtGen`生成。
